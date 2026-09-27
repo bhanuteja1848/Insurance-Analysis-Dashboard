@@ -12,13 +12,17 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 
 Watch the short video demonstration below for a complete walkthrough of dashboard interactions, dynamic filtering, and KPI performance tracking:
 
-https://github.com/user-attachments/assets/5194edc6-43bf-4eb6-9817-21a5ef8c81cb
+<video src="Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
 
-> *Note: You can also download or view the video directly in the repository under [`Images/Project Overview Video.mp4`](Images/Project%20Overview%20Video.mp4).*
+> *Note: You can also download or view the video directly in the repository under [`Images/Project Overview Video.mp4`]
 
 ---
 
 ## 📊 Dashboard Preview & Screenshots
+
+### Data Model Architecture
+![Data Model Schema](Images/data_model.png)
+
 
 ### Executive Overview Page
 ![Executive Overview](Images/1st page.png)
