@@ -26,10 +26,11 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 #### Executive Summary (Page 1)
 ![1st Page](Images/1st%20page.png)
 
-#### Claims & Policy Deep-Dive (Page 2)
+####  Customer & Vehicle Demographics (Page 2)
 ![2nd Page](Images/2nd%20page.png)
 
-#### Customer & Vehicle Demographics (Page 3)
+#### Claims & Policy Deep-Dive (Page 2)
+
 ![3rd Page](Images/3rd%20page.png)
 
 ---
