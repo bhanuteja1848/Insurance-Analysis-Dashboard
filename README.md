@@ -2,7 +2,7 @@
 
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![SQL](https://img.shields.io/badge/SQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
-[![Git LFS](https://img.shields.io/badge/Git_LFS-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-lfs.github.com/)
+
 
 An interactive, end-to-end Power BI analytics solution designed to evaluate vehicle insurance policy trends, customer demographics, claims distributions, and premium revenues. This dashboard translates complex insurance data into actionable business insights for underwriting and operational strategies.
 
