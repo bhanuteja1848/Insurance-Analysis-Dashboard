@@ -10,35 +10,34 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 
 ## 🎥 Walkthrough Video
 
-Watch the short video demonstration below for a complete walkthrough of dashboard interactions, dynamic filtering, and KPI performance tracking:
-
 <video src="Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
 
-> *Note: You can also download or view the video directly in the repository under [`Images/Project Overview Video.mp4`]
+> *If the video player above does not render in your browser, click here to open or download it: [Project Overview Video](Images/Project%20Overview%20Video.mp4)*
 
 ---
 
-## 📊 Dashboard Preview & Screenshots
+## 📊 Dashboard Pages & Data Model
 
 ### Data Model Architecture
-![Data Model Schema](Images/data_model.png)
+![Data Model](Images/data%20model.png)
 
+### Dashboard Visualizations
 
-### Executive Overview Page
-![Executive Overview](Images/1st page.png)
+#### Executive Summary (Page 1)
+![1st Page](Images/1st%20page.png)
 
-### Customer Analysis 
-![Customer Analysis](Images/2nd page.png)
+#### Claims & Policy Deep-Dive (Page 2)
+![2nd Page](Images/2nd%20page.png)
 
-### Claim Analysis 
-![Claim Analysis](Images/2nd page.png)
+#### Customer & Vehicle Demographics (Page 3)
+![3rd Page](Images/3rd%20page.png)
 
 ---
 
 ## 💡 Key Business Insights
 
 - **Premium vs. Claim Ratio:** Real-time visibility into net profit margins across different vehicle classes and coverage types.
-- **Demographic Breakdown:** Customer segmentation by age group,and driving history to evaluate high-risk vs. profitable profiles.
+- **Demographic Breakdown:** Customer segmentation by age group, region, and driving history to evaluate high-risk vs. profitable profiles.
 - **Claim Frequency & Severity:** Granular tracking of claims filed by monthly cohorts, identifying seasonal spikes in claim volume.
 
 ---
@@ -46,14 +45,11 @@ Watch the short video demonstration below for a complete walkthrough of dashboar
 ## 🛠️ Technical Architecture
 
 ### 1. Data Ingestion & Transformation (Power Query)
-- Standardized and cleansed 500k+ historical policy and claim records.
+- Standardized and cleansed historical policy and claim records.
 - Handled null values, formatted dates, and built custom M-Query conditional columns for age tier grouping and claim status indexing.
 
 ### 2. Data Modeling (Star Schema)
-
-![Data Model](Images/data model.png)
-
-- Designed an optimized **Star Schema** with `Fact_Claims` and `Fact_Policies` connected to dimension tables (`Dim_Customer`, `Dim_Vehicle`, `Dim_Date`, `Dim_Location`).
+- Designed an optimized **Star Schema** with core fact tables (`fact_policy.png`) connected to dimension tables (`dim_customer.png`, `dim_vehicle.png`).
 - Configured 1-to-many single-direction relationships to optimize DAX engine performance.
 
 ### 3. DAX Measures & Analytics
@@ -68,16 +64,21 @@ Calculated measures using DAX including:
 ## 📁 Repository Structure
 
 ```text
-vehicle_insurance_data/
+Insurance-Analysis-Dashboard/
 │
 ├── .gitattributes                # Git LFS config for tracking video/large media
-├── .gitignore                    # Excludes temporary PBI files and caches
 ├── README.md                     # Project documentation
+├── Insurance Dashboard.pbix      # Main Power BI Desktop file
 │
-├── Images/
-│   ├── Dashboard_Overview.png    # High-resolution dashboard screenshot
-│   ├── Claims_Analysis.png     # Detailed page screenshot
-│   └── Project Overview Video.mp4 # Video demonstration (11 MB)
+├── data/                         # Source datasets
 │
-└── pbix/
-    └── Insurance_Analysis.pbix   # Main Power BI Desktop file
+└── Images/
+    ├── 1st page.png              # Executive Summary View
+    ├── 2nd page.png              # Claims Analysis View
+    ├── 3rd page.png              # Customer Demographics View
+    ├── car icon.png              # Asset icon
+    ├── data model.png            # Complete Data Model Schema
+    ├── dim_customer.png          # Dimension schema preview
+    ├── dim_vehicle.png           # Dimension schema preview
+    ├── fact_policy.png           # Fact table schema preview
+    └── Project Overview Video.mp4 # Video demonstration
