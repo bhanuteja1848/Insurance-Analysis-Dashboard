@@ -21,17 +21,20 @@ https://github.com/user-attachments/assets/5194edc6-43bf-4eb6-9817-21a5ef8c81cb
 ## 📊 Dashboard Preview & Screenshots
 
 ### Executive Overview Page
-![Executive Overview](Images/Dashboard_Overview.png)
+![Executive Overview](Images/1st page.png)
 
-### Claims & Policy Deep-Dive
-![Claims Analysis](Images/Claims_Analysis.png)
+### Customer Analysis 
+![Customer Analysis](Images/2nd page.png)
+
+### Claim Analysis 
+![Claim Analysis](Images/2nd page.png)
 
 ---
 
 ## 💡 Key Business Insights
 
 - **Premium vs. Claim Ratio:** Real-time visibility into net profit margins across different vehicle classes and coverage types.
-- **Demographic Breakdown:** Customer segmentation by age group, region, and driving history to evaluate high-risk vs. profitable profiles.
+- **Demographic Breakdown:** Customer segmentation by age group,and driving history to evaluate high-risk vs. profitable profiles.
 - **Claim Frequency & Severity:** Granular tracking of claims filed by monthly cohorts, identifying seasonal spikes in claim volume.
 
 ---
@@ -43,6 +46,9 @@ https://github.com/user-attachments/assets/5194edc6-43bf-4eb6-9817-21a5ef8c81cb
 - Handled null values, formatted dates, and built custom M-Query conditional columns for age tier grouping and claim status indexing.
 
 ### 2. Data Modeling (Star Schema)
+
+![Data Model](Images/data model.png)
+
 - Designed an optimized **Star Schema** with `Fact_Claims` and `Fact_Policies` connected to dimension tables (`Dim_Customer`, `Dim_Vehicle`, `Dim_Date`, `Dim_Location`).
 - Configured 1-to-many single-direction relationships to optimize DAX engine performance.
 
