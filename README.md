@@ -37,8 +37,8 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 
 ## 💡 Key Business Insights
 
-- **Premium vs. Claim Ratio:** Real-time visibility into net profit margins across different vehicle classes and coverage types.
-- **Demographic Breakdown:** Customer segmentation by age group, region, and driving history to evaluate high-risk vs. profitable profiles.
+- **Premium vs. Claim Ratio:** Visibility into net profit margins across different vehicle classes and coverage types.
+- **Demographic Breakdown:** Customer segmentation by age group to evaluate high-risk vs. profitable profiles.
 - **Claim Frequency & Severity:** Granular tracking of claims filed by monthly cohorts, identifying seasonal spikes in claim volume.
 
 ---
