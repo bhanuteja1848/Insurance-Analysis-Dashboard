@@ -1,3 +1,5 @@
+
+
 # 🚗 Vehicle Insurance Analytics Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
@@ -9,6 +11,8 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 ---
 
 ## 🎥 Walkthrough Video
+
+https://github.com/user-attachments/assets/b4e5c2e0-a0b7-4d0d-83d4-6ef715294871
 
 
 <video src="Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
