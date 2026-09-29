@@ -10,7 +10,8 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 
 ## 🎥 Walkthrough Video
 
-<video src="Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
+
+<video src="https://github.com/bhanuteja1848/Insurance-Analysis-Dashboard/raw/main/Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
 
 > *If the video player above does not render in your browser, click here to open or download it: [Project Overview Video](Images/Project%20Overview%20Video.mp4)*
 
