@@ -15,9 +15,6 @@ An interactive, end-to-end Power BI analytics solution designed to evaluate vehi
 https://github.com/user-attachments/assets/b4e5c2e0-a0b7-4d0d-83d4-6ef715294871
 
 
-<video src="Images/Project%20Overview%20Video.mp4" controls width="100%"></video>
-> *If the video player above does not render in your browser, click here to open or download it: [Project Overview Video](Images/Project%20Overview%20Video.mp4)*
-
 ---
 
 ## 📊 Dashboard Pages & Data Model
@@ -33,7 +30,7 @@ https://github.com/user-attachments/assets/b4e5c2e0-a0b7-4d0d-83d4-6ef715294871
 ####  Customer & Vehicle Demographics (Page 2)
 ![2nd Page](Images/2nd%20page.png)
 
-#### Claims & Policy Deep-Dive (Page 2)
+#### Claims & Policy Deep-Dive (Page 3)
 
 ![3rd Page](Images/3rd%20page.png)
 
